@@ -4,5 +4,5 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 tests-examples
-constans.js
+constants.js
 example.spec.js
