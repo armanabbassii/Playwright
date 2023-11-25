@@ -27,7 +27,7 @@ test('captureAndSetCookies', async () => {
     console.log('Cookies after logging in:', cookies);
 
   } catch (err) {
-    await chrome.close();
+    await browser.close();
     throw new Error(err.message);
   }
 
